@@ -25,3 +25,16 @@ ex:
 ici, la chaine retourné par la fonction toString sera ajouté dans la chaine de caractères.  
 la fonction toString() retournant 'Hello, World', le resultat sera le suivant :  
 *toString de la classe 'App' : Hello, World*
+
+## Formattage de chaine de caractères
+
+```C#
+    /* Affiche : 
+     * Nom: Doe
+     * Prénom: John
+     */
+    String nom = "Doe";
+    String prenom = "John";
+    string john = String.Format("Nom: {0} \nPrénom: {1}", nom, prenom);
+    Console.WriteLine(john);
+```
